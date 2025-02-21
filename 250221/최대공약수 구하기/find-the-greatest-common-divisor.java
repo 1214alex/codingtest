@@ -17,7 +17,7 @@ public class Main{
         if(n % m == 0) {
             gcd = m;
         }else{
-             gcd = n%m;
+             gcd = gcd(m,n%m);
         }
            
         
